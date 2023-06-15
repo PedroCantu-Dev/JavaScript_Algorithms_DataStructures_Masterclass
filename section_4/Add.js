@@ -28,4 +28,4 @@ function charCount(str){
         return result;
 }
 
-charCount("quiere Que yo me la Pike ");
+charCount("pide Que yo me la Pike ");
