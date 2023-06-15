@@ -8,18 +8,14 @@
  */
 
 function countUniqueValues(array){
-    let frecArray = {}
-    let res = 0;
-    for(let i = 0 ; i < array.length ; i++ ){
-        if(frecArray[array[i]] ){
-            frecArray[array[i]]++;
-        }
-        else{
-            frecArray[array[i]] = 1;
-            res ++;
-        }
+    if(arr.length === 0 ) return 0;
+   var i = 0 ;
+   for(var j = 1; j< array.length ; j++){
+    if(arr[i] !== arr[j]){
+        i++;
+        arr[i] = arr[j]
     }
-    return res;
+   }
 } 
 
 
